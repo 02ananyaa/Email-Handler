@@ -16,7 +16,7 @@ class EmailApiApplicationTests {
 	private EmailService service;
 	public void sendEmail() {
 		System.out.print("sending email");
-		service.sendEmail("arpitta07@gmail.com","Email from Springboot", "HELLO WORLD");
+		service.sendEmail("test@gmail.com","Email from Springboot", "HELLO WORLD");
 		
 	}
 
